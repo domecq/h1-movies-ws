@@ -1,13 +1,17 @@
 require 'nokogiri'
 require 'open-uri'
+require 'geocoder'
 
 class EstrenosController < ApplicationController
   
   def index    
-    doc = Nokogiri::XML(open("http://www.123info.com.ar/cine/index.php"))
-    @links = doc.xpath('//div[@id="tres"]/ul').map do |i|
-      {'title' => i.xpath('li/strong').inner_text}      
+    
+    doc = Nokogiri::HTML(open("http://www.123info.com.ar/cine/index.php"))
+    
+    @movies = doc.xpath('//div[@id="tresc"]/ul/li').map do |i|
+      {:title => i.xpath('strong/a').text}      
     end    
+    
   end
     
 end

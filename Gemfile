@@ -40,3 +40,4 @@ gem 'activeadmin', :git => 'git://github.com/gregbell/active_admin.git'
 gem 'sass-rails'
 gem "meta_search",    '>= 1.1.0.pre'
 gem "nokogiri"
+gem "geocoder"
