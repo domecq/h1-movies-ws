@@ -4186,3 +4186,446 @@ Served asset /estrenos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-24 15:48:50 -0300
 Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (277.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateAdminNotes (20120123200626)
+Migrating to MoveAdminNotesToComments (20120123200627)
+Migrating to CreateRequests (20120123230340)
+Migrating to DeviseCreateAdminUsers (20120123230616)
+Migrating to CreateCines (20120124192752)
+  [1m[35m (612.9ms)[0m  CREATE TABLE `cines` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nombre` varchar(255), `direccion` varchar(255), `query` varchar(255), `country` varchar(255), `tel` varchar(255), `lat` decimal, `long` decimal, `zona_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (145.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120124192752')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateAdminNotes (20120123200626)
+Migrating to MoveAdminNotesToComments (20120123200627)
+Migrating to CreateRequests (20120123230340)
+Migrating to DeviseCreateAdminUsers (20120123230616)
+Migrating to CreateCines (20120124192752)
+Migrating to CreateZonas (20120124193113)
+  [1m[35m (119.4ms)[0m  CREATE TABLE `zonas` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nombre` varchar(255), `lat` decimal, `long` decimal, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120124193113')[0m
+Migrating to CreateGeneros (20120124193551)
+  [1m[35m (244.6ms)[0m  CREATE TABLE `generos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nombre` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (36.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120124193551')[0m
+  [1m[35m (0.9ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/estrenos" for 127.0.0.1 at 2012-01-24 16:38:41 -0300
+Processing by EstrenosController#index as HTML
+  Rendered estrenos/index.html.erb within layouts/application (28.2ms)
+Compiled cines.css  (63ms)  (pid 40765)
+Compiled application.css  (118ms)  (pid 40765)
+Compiled cines.js  (437ms)  (pid 40765)
+Compiled application.js  (453ms)  (pid 40765)
+Completed 200 OK in 1885ms (Views: 1241.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /application.css - 304 Not Modified (85ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /active_admin.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/cartelera.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /cartelera.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cines.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /cines.css - 200 OK (2ms)
+
+
+Started GET "/assets/estrenos.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /estrenos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /jquery-ui.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /active_admin/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /active_admin.js - 304 Not Modified (76ms)
+
+
+Started GET "/assets/cartelera.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /cartelera.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cines.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /cines.js - 200 OK (1ms)
+
+
+Started GET "/assets/estrenos.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /estrenos.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:43 -0300
+Served asset /active_admin/base.js - 304 Not Modified (13ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/devise/shared/_links.erb (1.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (398.9ms)
+Completed 200 OK in 548ms (Views: 523.6ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-01-24 16:38:48 -0300
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2012-01-24 16:39:00 -0300
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"32Bc/wuudBQTv1TnQ9Grv3992L5Uigrz53AeG1jUCJc=", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (65.7ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`email` = 'admin@example.com' LIMIT 1[0m
+  [1m[35m (18.7ms)[0m  BEGIN
+  [1m[36m (131.2ms)[0m  [1mUPDATE `admin_users` SET `last_sign_in_at` = '2012-01-23 23:43:14', `current_sign_in_at` = '2012-01-24 19:39:01', `last_sign_in_ip` = '186.19.201.131', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 3, `updated_at` = '2012-01-24 19:39:01' WHERE `admin_users`.`id` = 1[0m
+  [1m[35m (23.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 707ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-01-24 16:39:01 -0300
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (30.1ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/dashboard/index.html.arb (14.0ms)
+Completed 200 OK in 86ms (Views: 54.2ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:01 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin.js" for 127.0.0.1 at 2012-01-24 16:39:01 -0300
+Served asset /active_admin.js - 200 OK (0ms)
+
+
+Started GET "/admin/cines" for 127.0.0.1 at 2012-01-24 16:39:04 -0300
+Processing by Admin::CinesController#index as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (27.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `cines` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (476.2ms)
+Completed 200 OK in 604ms (Views: 466.2ms | ActiveRecord: 27.4ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:05 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon.png" for 127.0.0.1 at 2012-01-24 16:39:06 -0300
+Served asset /active_admin/datepicker/datepicker-input-icon.png - 200 OK (14ms)
+
+
+Started GET "/admin/generos" for 127.0.0.1 at 2012-01-24 16:39:09 -0300
+Processing by Admin::GenerosController#index as HTML
+  [1m[35mAdminUser Load (0.5ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `generos` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (117.3ms)
+Completed 200 OK in 129ms (Views: 122.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:09 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/admin/requests" for 127.0.0.1 at 2012-01-24 16:39:14 -0300
+Processing by Admin::RequestsController#index as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `requests` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `requests` 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `requests` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  [1m[35mRequest Load (0.4ms)[0m  SELECT `requests`.* FROM `requests` ORDER BY `requests`.id desc LIMIT 30 OFFSET 0
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (284.7ms)
+Completed 200 OK in 293ms (Views: 284.3ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:14 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/orderable.png" for 127.0.0.1 at 2012-01-24 16:39:14 -0300
+Served asset /active_admin/orderable.png - 200 OK (55ms)
+
+
+Started GET "/admin/zonas" for 127.0.0.1 at 2012-01-24 16:39:16 -0300
+Processing by Admin::ZonasController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `zonas` LIMIT 30 OFFSET 0) subquery_for_count 
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (149.0ms)
+Completed 200 OK in 157ms (Views: 152.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:16 -0300
+Served asset /active_admin.css - 304 Not Modified (6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-01-24 16:39:42 -0300
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/dashboard/index.html.arb (13.2ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:42 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/admin/cines" for 127.0.0.1 at 2012-01-24 16:39:45 -0300
+Processing by Admin::CinesController#index as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `cines` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (290.3ms)
+Completed 200 OK in 297ms (Views: 293.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:46 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/admin/cines/new" for 127.0.0.1 at 2012-01-24 16:39:48 -0300
+Processing by Admin::CinesController#new as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/new.html.arb (189.3ms)
+Completed 200 OK in 244ms (Views: 227.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:39:48 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/admin/cines" for 127.0.0.1 at 2012-01-24 16:40:00 -0300
+Processing by Admin::CinesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `cines` LIMIT 30 OFFSET 0) subquery_for_count 
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (290.9ms)
+Completed 200 OK in 302ms (Views: 297.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:01 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/admin/generos" for 127.0.0.1 at 2012-01-24 16:40:02 -0300
+Processing by Admin::GenerosController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `generos` LIMIT 30 OFFSET 0) subquery_for_count 
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (114.4ms)
+Completed 200 OK in 120ms (Views: 117.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:02 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/admin/generos/new" for 127.0.0.1 at 2012-01-24 16:40:06 -0300
+Processing by Admin::GenerosController#new as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/new.html.arb (53.1ms)
+Completed 200 OK in 68ms (Views: 57.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:07 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started POST "/admin/generos" for 127.0.0.1 at 2012-01-24 16:40:12 -0300
+Processing by Admin::GenerosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"32Bc/wuudBQTv1TnQ9Grv3992L5Uigrz53AeG1jUCJc=", "genero"=>{"nombre"=>"Acción"}, "commit"=>"Create Genero"}
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (43.7ms)[0m  INSERT INTO `generos` (`created_at`, `nombre`, `updated_at`) VALUES ('2012-01-24 19:40:12', 'Acción', '2012-01-24 19:40:12')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/generos/1
+Completed 302 Found in 60ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/generos/1" for 127.0.0.1 at 2012-01-24 16:40:12 -0300
+Processing by Admin::GenerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.5ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36mGenero Load (0.4ms)[0m  [1mSELECT `generos`.* FROM `generos` WHERE `generos`.`id` = 1 LIMIT 1[0m
+  [1m[35m (52.9ms)[0m  SELECT COUNT(*) FROM `active_admin_comments` WHERE `active_admin_comments`.`resource_type` = 'Genero' AND `active_admin_comments`.`resource_id` = 1 AND `active_admin_comments`.`namespace` = 'admin'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `active_admin_comments` WHERE `active_admin_comments`.`resource_type` = 'Genero' AND `active_admin_comments`.`resource_id` = 1 AND `active_admin_comments`.`namespace` = 'admin'[0m
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/show.html.arb (157.0ms)
+Completed 200 OK in 230ms (Views: 125.1ms | ActiveRecord: 98.9ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:12 -0300
+Served asset /active_admin.css - 304 Not Modified (12ms)
+
+
+Started GET "/admin/generos" for 127.0.0.1 at 2012-01-24 16:40:18 -0300
+Processing by Admin::GenerosController#index as HTML
+  [1m[35mAdminUser Load (0.5ms)[0m  SELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `generos` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `generos` 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `generos` LIMIT 30 OFFSET 0) subquery_for_count [0m
+  [1m[35mGenero Load (1.1ms)[0m  SELECT `generos`.* FROM `generos` ORDER BY `generos`.id desc LIMIT 30 OFFSET 0
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/resource/index.html.arb (126.9ms)
+Completed 200 OK in 133ms (Views: 128.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:18 -0300
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/admin/logout" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Processing by ActiveAdmin::Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"32Bc/wuudBQTv1TnQ9Grv3992L5Uigrz53AeG1jUCJc="}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1mSELECT `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 25ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/devise/shared/_links.erb (0.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (28.4ms)
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /active_admin.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:22 -0300
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/estrenos" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Processing by EstrenosController#index as HTML
+  Rendered estrenos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 243ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cartelera.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /cartelera.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/estrenos.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /estrenos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cines.css?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /cines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cines.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /cines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cartelera.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /cartelera.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/estrenos.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /estrenos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
+Served asset /application.js - 304 Not Modified (0ms)

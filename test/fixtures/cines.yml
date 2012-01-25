@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombre: MyString
+  direccion: MyString
+  query: MyString
+  country: MyString
+  tel: MyString
+  lat: 9.99
+  long: 9.99
+  zona_id: 1
+
+two:
+  nombre: MyString
+  direccion: MyString
+  query: MyString
+  country: MyString
+  tel: MyString
+  lat: 9.99
+  long: 9.99
+  zona_id: 1

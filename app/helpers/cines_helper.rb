@@ -1,0 +1,2 @@
+module CinesHelper
+end

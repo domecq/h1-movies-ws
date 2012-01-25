@@ -1,0 +1,2 @@
+class CinesController < ApplicationController
+end
