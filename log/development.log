@@ -4893,3 +4893,1715 @@ Completed 200 OK in 762ms (Views: 3.7ms | ActiveRecord: 0.0ms)
 Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-25 14:16:10 -0300
 Processing by PeliculasController#estrenos as HTML
 Completed 200 OK in 482ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 127.0.0.1 at 2012-01-25 14:42:49 -0300
+
+Racc::ParseError (
+parse error on value "(" (LPAREN)):
+  config/routes.rb:14:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (110.3ms)
+
+
+Started GET "/cines" for 127.0.0.1 at 2012-01-25 14:43:05 -0300
+Processing by CinesController#all as HTML
+Completed 200 OK in 203ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/252" for 127.0.0.1 at 2012-01-25 14:43:12 -0300
+
+ActionController::RoutingError (No route matches [GET] "/252"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/cines/252" for 127.0.0.1 at 2012-01-25 14:43:21 -0300
+
+ActionController::RoutingError (No route matches [GET] "/cines/252"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/cines/252/" for 127.0.0.1 at 2012-01-25 14:43:26 -0300
+
+ActionController::RoutingError (No route matches [GET] "/cines/252"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/cines/252/" for 127.0.0.1 at 2012-01-25 14:43:46 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"252"}
+Completed 500 Internal Server Error in 265ms
+
+ActionView::MissingTemplate (Missing template cines/get, application/get with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :arb]}. Searched in:
+  * "/Users/domecq/Sites/h1movies/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/kaminari-0.13.0/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/devise-1.5.3/app/views"
+):
+  actionpack (3.2.0) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.0) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.0) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:28:in `determine_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.0) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:414:in `_run__3804563049199258952__process_action__1626543014486625572__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/cines/252/" for 127.0.0.1 at 2012-01-25 14:44:22 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"252"}
+Completed 500 Internal Server Error in 142ms
+
+ActionView::MissingTemplate (Missing template cines/get, application/get with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :arb]}. Searched in:
+  * "/Users/domecq/Sites/h1movies/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/kaminari-0.13.0/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/devise-1.5.3/app/views"
+):
+  actionpack (3.2.0) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.0) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.0) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:28:in `determine_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.0) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:414:in `_run__3804563049199258952__process_action__1626543014486625572__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/cines/252/1" for 127.0.0.1 at 2012-01-25 14:44:25 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"252", "movie_id"=>"1"}
+Completed 500 Internal Server Error in 144ms
+
+ActionView::MissingTemplate (Missing template cines/get, application/get with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :arb]}. Searched in:
+  * "/Users/domecq/Sites/h1movies/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/bundler/gems/active_admin-b5b97e1f296d/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/kaminari-0.13.0/app/views"
+  * "/Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/devise-1.5.3/app/views"
+):
+  actionpack (3.2.0) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.0) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.0) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:28:in `determine_template'
+  actionpack (3.2.0) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.0) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.0) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.0) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:414:in `_run__3804563049199258952__process_action__1626543014486625572__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.0) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.0) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.0) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/cines/252/1" for 127.0.0.1 at 2012-01-25 15:12:25 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"252", "movie_id"=>"1"}
+Completed 200 OK in 121ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:13:04 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 94ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:13:08 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 188ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:15:09 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 118ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:15:31 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 180ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:15:39 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 120ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:15:51 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 769ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:16:05 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 120ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:19:09 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 135ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:20:31 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 106ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:21:28 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 114ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:21:41 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 175ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:23:16 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 103ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:24:32 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 134ms
+
+NoMethodError (undefined method `[]' for #<Enumerator:0x00000103c215d8>):
+  app/controllers/cines_controller.rb:23:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:24:42 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 122ms
+
+NoMethodError (undefined method `[]' for #<Enumerator:0x00000103a7ca70>):
+  app/controllers/cines_controller.rb:23:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:24:56 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 166ms
+
+NoMethodError (undefined method `[]' for #<Enumerator:0x00000104ae8e40>):
+  app/controllers/cines_controller.rb:23:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:25:12 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 145ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:26:47 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 118ms
+
+NoMethodError (undefined method `[]' for #<Enumerator:0x00000102fa89f0>):
+  app/controllers/cines_controller.rb:23:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:28:58 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 110ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:29:36 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:30:07 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 106ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:33:47 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 108ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:34:01 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 111ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:34:26 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 165ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:35:55 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 124ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: a@href):
+  app/controllers/cines_controller.rb:28:in `block in get'
+  app/controllers/cines_controller.rb:27:in `map'
+  app/controllers/cines_controller.rb:27:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:36:02 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 141ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:36:10 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 128ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:36:39 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 98ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:38:13 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 110ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:38:14 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 98ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:38:15 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 215ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:45:54 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 144ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: a/starts-with(@href,'pelicula.php'):
+  app/controllers/cines_controller.rb:28:in `block in get'
+  app/controllers/cines_controller.rb:27:in `map'
+  app/controllers/cines_controller.rb:27:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:46:02 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 146ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: a/starts-with(@href,'pelicula.php')):
+  app/controllers/cines_controller.rb:28:in `block in get'
+  app/controllers/cines_controller.rb:27:in `map'
+  app/controllers/cines_controller.rb:27:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:46:04 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 111ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: a/starts-with(@href,'pelicula.php')):
+  app/controllers/cines_controller.rb:28:in `block in get'
+  app/controllers/cines_controller.rb:27:in `map'
+  app/controllers/cines_controller.rb:27:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:46:06 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 92ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: a/starts-with(@href,'pelicula.php')):
+  app/controllers/cines_controller.rb:28:in `block in get'
+  app/controllers/cines_controller.rb:27:in `map'
+  app/controllers/cines_controller.rb:27:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:47:11 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 137ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:47:43 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 108ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:48:10 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 103ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:48:43 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 196ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:51:58 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 472ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:53:53 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 132ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:54:08 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 112ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:54:33 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 117ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:02 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:08 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:09 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:10 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:11 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:16 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:27 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: syntax error, unexpected '}', expecting tASSOC
+/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:38: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 15:56:53 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 200 OK in 114ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/" for 127.0.0.1 at 2012-01-25 16:04:38 -0300
+Processing by CinesController#all as HTML
+Completed 200 OK in 200ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/102" for 127.0.0.1 at 2012-01-25 19:14:58 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"102"}
+Completed 500 Internal Server Error in 1059ms
+
+NoMethodError (undefined method `liness' for #<String:0x00000102f9b098>):
+  app/controllers/cines_controller.rb:22:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:15:06 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 172ms
+
+NoMethodError (undefined method `liness' for #<String:0x00000103d4d6a0>):
+  app/controllers/cines_controller.rb:22:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.8ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:15:10 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 120ms
+
+NoMethodError (undefined method `liness' for #<String:0x000001049b81d8>):
+  app/controllers/cines_controller.rb:22:in `block in get'
+  app/controllers/cines_controller.rb:21:in `map'
+  app/controllers/cines_controller.rb:21:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:15:30 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 2319ms
+
+NoMethodError (undefined method `+' for #<Tempfile:0x000001049c73b8>):
+  app/controllers/cines_controller.rb:26:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:16:08 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1707ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:16:24 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1136ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:18:08 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:30: unknown regexp options - dv):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__3500950821792932347__call__4506340289199241660__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (28.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.5ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:18:21 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1632ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:18:37 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 949ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:19:32 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 5970ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:20:32 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1600ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:22:54 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1019ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:24:07 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1345ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:25:02 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 1619ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:32:in `[]='
+  app/controllers/cines_controller.rb:32:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:25:48 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 1310ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:25:53 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 939ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:26:02 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 773ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:26:05 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 989ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:26:20 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 820ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:26:31 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 1147ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:26:39 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 500 Internal Server Error in 1060ms
+
+IndexError (string not matched):
+  app/controllers/cines_controller.rb:31:in `[]='
+  app/controllers/cines_controller.rb:31:in `block in get'
+  app/controllers/cines_controller.rb:29:in `map'
+  app/controllers/cines_controller.rb:29:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:29:18 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1429ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:29:29 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1146ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:29:42 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1075ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:29:44 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 962ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:18 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1239ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:24 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 764ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:30 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 884ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:32 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 999ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:38 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 911ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:30:50 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1059ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:31:00 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1499ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:31:03 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 770ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:31:08 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 765ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:31:13 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1029ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:33:59 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1618ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:34:23 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1860ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:34:34 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 983ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:35:29 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 822ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:35:46 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 830ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/170" for 127.0.0.1 at 2012-01-25 19:36:14 -0300
+Processing by CinesController#get as HTML
+  Parameters: {"cine_id"=>"170"}
+Completed 200 OK in 1504ms (Views: 3.3ms | ActiveRecord: 0.0ms)
