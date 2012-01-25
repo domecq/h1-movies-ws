@@ -1,12 +1,24 @@
+require 'open-uri'
+require 'nokogiri'
+
 class CinesController < ApplicationController
   
-  def index    
+  def all    
     
-    doc = Nokogiri::HTML(open("http://www.123info.com.ar/cine/index.php"))
+    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
     
-    @movies = doc.xpath('//div[@id="tresc"]/ul/li').map do |i|
-      {:title => i.xpath('strong/a').text}      
+    @cines = doc.xpath('//select[@id="cine"]/option').map do |i|
+      {:nombre => i.text, :id => i.xpath('@value').text}      
     end    
+          
+    render :json => @cines
     
   end  
+  
+  def show
+    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/cine.php?id=" + params[:id]))
+    
+  end
+  
+  
 end

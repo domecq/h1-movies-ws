@@ -13,8 +13,18 @@ class PeliculasController < ApplicationController
     render :json => @movies
     
   end    
-  
+    
   def cartelera
+    
+    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
+    
+    @peliculas = doc.xpath('//select[@id="pelicula"]/option').map do |i|
+      {:nombre => i.text, :id => i.xpath('@value').text}      
+    end    
+          
+    render :json => @peliculas
+    
   end
+  
   
 end
