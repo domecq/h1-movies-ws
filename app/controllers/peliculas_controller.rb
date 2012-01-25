@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'nokogiri'
+
 class PeliculasController < ApplicationController
   
   def estrenos
@@ -7,6 +10,7 @@ class PeliculasController < ApplicationController
     @movies = doc.xpath('//div[@id="tresc"]/ul/li').map do |i|
       {:title => i.xpath('strong/a').text}      
     end    
+    render :json => @movies
     
   end    
   

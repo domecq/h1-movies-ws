@@ -4629,3 +4629,73 @@ Served asset /estrenos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-24 16:40:37 -0300
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-25 12:17:58 -0300
+Served asset /rails.png - 304 Not Modified (77ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-25 12:18:06 -0300
+
+AbstractController::ActionNotFound (The action 'show' could not be found for PeliculasController):
+  actionpack (3.2.0) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__2652667241472511329__call__966021954422496350__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (20.6ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-25 12:28:57 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 303ms (Views: 0.5ms | ActiveRecord: 0.0ms)
