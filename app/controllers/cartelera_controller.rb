@@ -1,2 +1,0 @@
-class CarteleraController < ApplicationController
-end

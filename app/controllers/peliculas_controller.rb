@@ -1,4 +1,5 @@
 class PeliculasController < ApplicationController
+  
   def estrenos
 
     doc = Nokogiri::HTML(open("http://www.123info.com.ar/cine/index.php"))
@@ -8,4 +9,8 @@ class PeliculasController < ApplicationController
     end    
     
   end    
+  
+  def cartelera
+  end
+  
 end
