@@ -10,9 +10,13 @@ class PeliculasController < ApplicationController
     @movies = doc.xpath('/html/body/div/table/tr').map do |i|
       titulo = i.xpath('td/strong/a').text
       brief = i.xpath('td[@class="texto"]').text.gsub(/\[ver m\u00e1s\]|\n/,'').strip.sub(titulo,'')
-      {:titulo => titulo, 
+      link = i.xpath('td/a/@href').text.split('=').to_a
+      pelicula_id = link[1]
+      
+      { :pelicula_id => pelicula_id,
+        :titulo => titulo, 
         :brief => brief,
-        :imagen => i.xpath('td/img/@src').text
+        :imagen => i.xpath('td/img/@src').text,
         }
     end    
     render :json => @movies

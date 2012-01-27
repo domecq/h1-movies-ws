@@ -7188,3 +7188,232 @@ Completed 200 OK in 120ms (Views: 1.2ms | ActiveRecord: 0.0ms)
 Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:32:46 -0300
 Processing by PeliculasController#estrenos as HTML
 Completed 200 OK in 153ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:38:46 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 103ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:54:35 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:15: syntax error, unexpected tSYMBEG, expecting '}'
+        :titulo => titulo  , 
+         ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:16: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+        :brief => brief,
+                 ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:17: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+        :imagen => i.xpath('td/img/@src').text,
+                  ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:18: syntax error, unexpected '}', expecting '='
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:37: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__2934433302543716654__call__215496165196511452__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:54:47 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 95ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:55:34 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 121ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:55:36 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 131ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:56:38 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 124ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: td/a/@href"]):
+  app/controllers/peliculas_controller.rb:13:in `block in estrenos'
+  app/controllers/peliculas_controller.rb:10:in `map'
+  app/controllers/peliculas_controller.rb:10:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:56:50 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 124ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: td/a"]):
+  app/controllers/peliculas_controller.rb:13:in `block in estrenos'
+  app/controllers/peliculas_controller.rb:10:in `map'
+  app/controllers/peliculas_controller.rb:10:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:57:03 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 137ms
+
+Nokogiri::XML::XPath::SyntaxError (Invalid expression: td/a/@href]):
+  app/controllers/peliculas_controller.rb:13:in `block in estrenos'
+  app/controllers/peliculas_controller.rb:10:in `map'
+  app/controllers/peliculas_controller.rb:10:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:57:08 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 125ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:57:51 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:13: syntax error, unexpected '=', expecting ')'
+      link = i.xpath('td/a/@href').text.split(=)
+                                               ^):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__2934433302543716654__call__215496165196511452__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:58:17 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 104ms (Views: 1.3ms | ActiveRecord: 0.0ms)
