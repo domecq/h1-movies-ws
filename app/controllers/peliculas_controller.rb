@@ -5,10 +5,15 @@ class PeliculasController < ApplicationController
   
   def estrenos
 
-    doc = Nokogiri::HTML(open("http://www.123info.com.ar/cine/index.php"))
+    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
     
-    @movies = doc.xpath('//div[@id="tresc"]/ul/li').map do |i|
-      {:title => i.xpath('strong/a').text}      
+    @movies = doc.xpath('/html/body/div/table/tr').map do |i|
+      titulo = i.xpath('td/strong/a').text
+      brief = i.xpath('td[@class="texto"]').text.gsub(/\[ver m\u00e1s\]|\n/,'').strip.sub(titulo,'')
+      {:titulo => titulo, 
+        :brief => brief,
+        :imagen => i.xpath('td/img/@src').text
+        }
     end    
     render :json => @movies
     
