@@ -7417,3 +7417,174 @@ SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.r
 Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 11:58:17 -0300
 Processing by PeliculasController#estrenos as HTML
 Completed 200 OK in 104ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:10:49 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 152ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:13:22 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 114ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:48:17 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 767ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:49:40 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 131ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:50:46 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 201ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:52:04 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 271ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 13:58:14 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 360ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 15:01:09 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 6451ms (Views: 480.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 15:01:35 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 2056ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 15:04:12 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 2995ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:37:05 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 221ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:37:16 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 178ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:37:55 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 250ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:38:54 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 511ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:49:25 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 189ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:49:42 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 157ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:50:28 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 171ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:52:05 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 253ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 16:59:40 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 486ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-01-27 17:11:11 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 1135ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.106 at 2012-01-27 17:29:24 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 8843ms (Views: 266.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estreno" for 192.168.0.104 at 2012-01-27 17:33:23 -0300
+
+ActionController::RoutingError (No route matches [GET] "/peliculas/estreno"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (392.9ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:33:42 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 3654ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:33:56 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 143ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:34:06 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 126ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:34:23 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 128ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:34:49 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 198ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.106 at 2012-01-27 17:35:32 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 113ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.106 at 2012-01-27 17:36:19 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 106ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 192.168.0.104 at 2012-01-27 17:37:19 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 124ms (Views: 1.3ms | ActiveRecord: 0.0ms)
