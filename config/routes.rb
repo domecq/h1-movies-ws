@@ -9,11 +9,11 @@ H1movies::Application.routes.draw do
   # Sample of regular route:
   match 'peliculas/estrenos' => 'peliculas#estrenos'
   match 'peliculas/cartelera' => 'peliculas#cartelera'
+  match 'peliculas/:pelicula_id' => 'peliculas#get' 
 
   match 'cines' => 'cines#all'
   match 'cines/:cine_id' => 'cines#get'  
   match 'cines/:cine_id/:movie_id' => 'cines#get'  
-  match 'cines/show/:id' => 'cines#show'  
 
   
   # Keep in mind you can assign values other than :controller and :action
