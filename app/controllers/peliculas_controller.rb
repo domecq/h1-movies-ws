@@ -60,7 +60,7 @@ class PeliculasController < ApplicationController
     @pelicula = doc.xpath('/html/body/div/table').map do |info|
       { :titulo => info.xpath('tr[1]/td[2]/strong').text, 
         :imagen => info.xpath('tr[1]/td[1]/img/@src').text,
-        :descripcion => info.xpath('tr[1]/td[2]/p').text,
+        :descripcion => info.xpath('tr[1]/td[2]/p').text.gsub(/\[ Donde verla \]/,''),
         :titulo_original => info.xpath('tr[2]/td/ul/li[1]/span').text,
         :director => info.xpath('tr[2]/td/ul/li[9]/span').text,
         :guionista => info.xpath('tr[2]/td/ul/li[10]/span').text,
