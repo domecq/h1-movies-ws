@@ -7953,3 +7953,3099 @@ Completed 200 OK in 1664ms (Views: 6.4ms | ActiveRecord: 0.0ms)
 Started GET "/peliculas/cartelera" for 127.0.0.1 at 2012-02-03 18:55:09 -0300
 Processing by PeliculasController#cartelera as HTML
 Completed 200 OK in 3167ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 19:26:38 -0300
+Processing by PeliculasController#get as HTML
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:35:31 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 110ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:38:22 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 116ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:39:12 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 161ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:39:12 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 140ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-03 19:39:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 2140ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:44:21 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 132ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:44:23 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 170ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 19:44:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 123ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:45:01 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 120ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:45:03 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 125ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 19:45:07 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 100ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:45:33 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 160ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:45:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 118ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:48:24 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 156ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:48:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 96ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 19:48:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:50:07 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 115ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:50:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 99ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:51:12 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 174ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:51:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 106ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 19:51:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 147ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 19:51:32 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 114ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:53:24 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 117ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:53:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 111ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:53:54 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 183ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:53:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:55:51 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 116ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:55:52 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:57:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 190ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 19:57:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 130ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:59:08 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 126ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:59:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 98ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 19:59:43 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 161ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 19:59:44 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:01:26 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 89ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:01:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:05:59 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 163ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:06:01 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 116ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:07:52 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 154ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:07:53 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 218ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:08:05 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 113ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:08:07 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/2" for 127.0.0.1 at 2012-02-03 20:09:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"2"}
+Completed 200 OK in 101ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/3" for 127.0.0.1 at 2012-02-03 20:10:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"3"}
+Completed 200 OK in 102ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:10:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:10:17 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 141ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:10:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 133ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:10:24 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 108ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:10:36 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 125ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:10:50 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 107ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:10:56 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 570ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:11:03 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 142ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:11:06 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 101ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:11:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 111ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:11:21 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 112ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:11:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 905ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:12:31 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 1153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:13:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:13:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 543ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:13:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 119ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:13:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 125ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:13:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 132ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:14:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:14:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:14:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:15:04 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:15:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 147ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:15:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 116ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:15:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 109ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:15:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 109ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:28:13 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 538ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:28:16 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 120ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:28:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 127.0.0.1 at 2012-02-03 20:28:32 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 93ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:29:38 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 129ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:29:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 145ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:29:54 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 145ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:29:57 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 115ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:30:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 83ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 127.0.0.1 at 2012-02-03 20:30:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:30:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 109ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:31:06 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 191ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 20:31:19 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 111ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 20:31:53 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 119ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-03 20:32:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 100ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 127.0.0.1 at 2012-02-03 20:32:04 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 20:32:23 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 144ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 20:32:47 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 135ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 127.0.0.1 at 2012-02-03 20:32:53 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 93ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 127.0.0.1 at 2012-02-03 20:34:16 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 97ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 127.0.0.1 at 2012-02-03 20:34:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 96ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 127.0.0.1 at 2012-02-03 20:34:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 142ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:34:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:35:17 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 99ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:35:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 130ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 127.0.0.1 at 2012-02-03 20:35:24 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 20:35:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 202ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-03 20:35:47 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 142ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 127.0.0.1 at 2012-02-03 20:35:51 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 89ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:35:58 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 90ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 127.0.0.1 at 2012-02-03 20:36:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 117ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:39:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 334ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:40:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 7623ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:41:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 367ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 20:41:24 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 167ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 20:41:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 251ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 20:44:10 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 2242ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:44:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 127.0.0.1 at 2012-02-03 20:44:36 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 98ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 20:45:46 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 21:01:36 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 266ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-03 21:08:11 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 817ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-03 21:08:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 106ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 127.0.0.1 at 2012-02-03 21:08:18 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 168ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 21:33:51 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 602ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 127.0.0.1 at 2012-02-03 21:33:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 181ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 21:34:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 203ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-03 21:52:31 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 174ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 127.0.0.1 at 2012-02-03 21:52:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 109ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 127.0.0.1 at 2012-02-03 21:52:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-03 21:53:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 228ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 127.0.0.1 at 2012-02-03 21:53:17 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 102ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 127.0.0.1 at 2012-02-04 01:16:19 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 500 Internal Server Error in 440ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:52:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (125.1ms)
+
+
+Started GET "/peliculas/4572" for 127.0.0.1 at 2012-02-04 01:16:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 500 Internal Server Error in 5ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:52:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/peliculas/4573" for 127.0.0.1 at 2012-02-04 01:16:29 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 500 Internal Server Error in 5ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:52:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (50.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.3ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 12:11:37 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 456ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:9:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.1ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 12:12:12 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 5ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:9:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 12:14:37 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 500 Internal Server Error in 221783ms
+
+Timeout::Error (Timeout::Error):
+  app/controllers/peliculas_controller.rb:9:in `estrenos'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 12:57:03 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+    @movies = [{"pelicula_id":"4579","titulo":"Chac\u00fa",...
+                              ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ovies = [{"pelicula_id":"4579","titulo":"Chac\u00fa","brief"...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4579","titulo":"Chac\u00fa","brief":"Documen...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...":"4579","titulo":"Chac\u00fa","brief":"Documental realizado...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...,"titulo":"Chac\u00fa","brief":"Documental realizado por un ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ratar la historia de...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...historia de...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4579ch.jpg"},{"pelicula_id":"4571","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4579ch.jpg"},{"pelicula_id":"4571","titulo":"La dama de h...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4571","titulo":"La dama de hierro",...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4571","titulo":"La dama de hierro","brief":"...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...","titulo":"La dama de hierro","brief":"Cuenta la historia d...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...o":"La dama de hierro","brief":"Cuenta la historia de la ex ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ero y clase para ser...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...se para ser...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4571ch.jpg"},{"pelicula_id":"4578","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4571ch.jpg"},{"pelicula_id":"4578","titulo":"Los descendi...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4578","titulo":"Los descendientes",...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4578","titulo":"Los descendientes","brief":"...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...","titulo":"Los descendientes","brief":"En Hawai, Matt, un h...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...o":"Los descendientes","brief":"En Hawai, Matt, un hombre ca...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... en coma luego de un...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...luego de un...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4578ch.jpg"},{"pelicula_id":"4574","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4578ch.jpg"},{"pelicula_id":"4574","titulo":"Moacir","bri...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4574","titulo":"Moacir","brief":"Do...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4574","titulo":"Moacir","brief":"Documental ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...a_id":"4574","titulo":"Moacir","brief":"Documental sobre Moa...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...574","titulo":"Moacir","brief":"Documental sobre Moacir Dos ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...emostrar su talento....\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...su talento....\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4574ch.jpg"},{"pelicula_id":"4575","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4574ch.jpg"},{"pelicula_id":"4575","titulo":"Que lo pague...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4575","titulo":"Que lo pague la noc...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4575","titulo":"Que lo pague la noche","brie...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...itulo":"Que lo pague la noche","brief":"Buenos Aires, Diciem...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...Que lo pague la noche","brief":"Buenos Aires, Diciembre del ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... cae desmayado sobre...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...ayado sobre...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4575ch.jpg"},{"pelicula_id":"4577","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4575ch.jpg"},{"pelicula_id":"4577","titulo":"Selkirk, el ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4577","titulo":"Selkirk, el verdade...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4577","titulo":"Selkirk, el verdadero Robins...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... el verdadero Robinson Crusoe","brief":"Alexander Selkirk, u...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...adero Robinson Crusoe","brief":"Alexander Selkirk, un pirata...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... busca de tesoros. A...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+... tesoros. A...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4577ch.jpg"},{"pelicula_id":"4568","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4577ch.jpg"},{"pelicula_id":"4568","titulo":"The chemical...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4568","titulo":"The chemical brothe...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4568","titulo":"The chemical brothers: Don`t...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...hemical brothers: Don`t think","brief":"Por casi dos d\u00e9...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...brothers: Don`t think","brief":"Por casi dos d\u00e9cadas, e...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...edor del mundo, pero...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...mundo, pero...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4568ch.jpg"},{"pelicula_id":"4572","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4568ch.jpg"},{"pelicula_id":"4572","titulo":"Viaje 2: La ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4572","titulo":"Viaje 2: La isla mi...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4572","titulo":"Viaje 2: La isla misteriosa"...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...:"Viaje 2: La isla misteriosa","brief":"Sean Anderson de 17 ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...2: La isla misteriosa","brief":"Sean Anderson de 17 a\u00f1o...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... la se\u00f1al hasta...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...0f1al hasta...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4572ch.jpg"},{"pelicula_id":"4573","titul...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting tASSOC
+...os/4572ch.jpg"},{"pelicula_id":"4573","titulo":"Viaje 2: La ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...ch.jpg"},{"pelicula_id":"4573","titulo":"Viaje 2: La isla mi...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...{"pelicula_id":"4573","titulo":"Viaje 2: La isla misteriosa ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+...iaje 2: La isla misteriosa 3D","brief":"Sean Anderson de 17 ...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...La isla misteriosa 3D","brief":"Sean Anderson de 17 a\u00f1o...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ',', expecting keyword_end
+... la se\u00f1al hasta...\u00a0","imagen":"http://www.123info....
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+...0f1al hasta...\u00a0","imagen":"http://www.123info.com.ar/fo...
+...                               ^
+/Users/domecq/Sites/h1movies/app/controllers/peliculas_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+...3info.com.ar/fotos/4573ch.jpg"}]
+...                               ^):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__4273398673567965722__call__2745484536316842021__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 13:00:17 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 21:39:35 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-04 21:43:55 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-05 16:48:10 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 127.0.0.1 at 2012-02-05 17:03:02 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 17:51:03 -0300
+Processing by PeliculasController#estrenos as HTML
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 17:51:22 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 42ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 17:52:39 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 17:54:46 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-05 17:57:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 500 Internal Server Error in 4501ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:58:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (56.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (32.9ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (164.5ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 17:59:43 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-05 18:00:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 500 Internal Server Error in 402ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:58:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (70.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (53.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (170.2ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-05 18:02:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 172.16.18.1 at 2012-02-05 18:02:43 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 500 Internal Server Error in 398ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:58:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.8ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-05 18:02:47 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 500 Internal Server Error in 103ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:58:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (307.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (345.4ms)
+
+
+Started GET "/peliculas/4573" for 172.16.18.1 at 2012-02-05 18:02:50 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 500 Internal Server Error in 6ms
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/peliculas_controller.rb:58:in `get'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:31:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 696ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:31:56 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 151ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:31:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 115ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:32:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 270ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:33:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 133ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:39:33 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 258ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 172.16.18.1 at 2012-02-06 03:39:44 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/2" for 172.16.18.1 at 2012-02-06 03:41:19 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"2"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 03:41:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 138ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 03:44:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 102ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:44:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 1254ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 03:44:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 118ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 03:45:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 91ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:45:55 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 106ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:45:56 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 147ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:46:49 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 145ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:46:51 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 90ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:47:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:48:36 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 105ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:48:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 109ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 03:49:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 118ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 03:49:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 03:49:49 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 82ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:50:02 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 306ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:50:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:50:58 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 167ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:51:01 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 85ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:51:40 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 825ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:51:43 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 123ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:52:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 136ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:52:38 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 94ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 03:54:41 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 101ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:54:42 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 105ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:55:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 146ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:55:12 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:55:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:55:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:55:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 105ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:55:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 132ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:55:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 86ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:56:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:56:47 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:57:31 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:57:34 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:57:39 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 173ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:57:46 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 101ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:57:52 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:57:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 110ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 03:58:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 451ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 03:58:06 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:58:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 80ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 03:58:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 110ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 03:59:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 101ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4" for 172.16.18.1 at 2012-02-06 04:00:01 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4"}
+Completed 200 OK in 111ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:00:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:01:01 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 212ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:01:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:01:21 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:01:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 83ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:02:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 159ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:02:50 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 79ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:02:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 83ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:03:03 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:03:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 101ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:03:17 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 90ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:03:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 107ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:04:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 102ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:04:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 120ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:05:14 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:05:32 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 100ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:06:03 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 130ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:06:22 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 88ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:06:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 92ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4573" for 172.16.18.1 at 2012-02-06 04:07:06 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4573"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:07:19 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:07:49 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 174ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:07:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 102ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:12:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 97ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:14:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 352ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:14:29 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 94ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:14:38 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 299ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:14:44 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:14:54 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:15:01 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 84ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:15:10 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:15:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 105ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:15:21 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 83ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:15:23 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:16:43 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:16:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 109ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:16:58 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 111ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:17:09 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 154ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:17:16 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 92ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:17:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 102ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:17:29 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:17:36 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 435ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:17:44 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 111ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:17:51 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 102ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:18:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:18:53 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 132ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:19:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 117ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:19:10 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:19:16 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:19:21 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:19:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:20:15 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 1007ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:20:24 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 133ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:21:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 188ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:21:11 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:21:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 815ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:21:17 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 123ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:21:23 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 129ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:21:32 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 146ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:24:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:24:49 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 84ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:24:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 1294ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:25:03 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 109ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:27:54 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 93ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:28:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:28:02 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 90ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:28:05 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 04:28:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 87ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:28:30 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:28:32 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 80ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:28:37 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:28:41 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:28:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 172.16.18.1 at 2012-02-06 04:29:06 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 127ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:29:11 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 80ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:30:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 90ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 172.16.18.1 at 2012-02-06 04:30:35 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 80ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:30:52 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:33:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 174ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4572" for 172.16.18.1 at 2012-02-06 04:33:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4572"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:34:31 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 155ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 04:34:46 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 90ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:34:54 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 114ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:37:40 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 360ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:37:48 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 121ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:39:54 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 146ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4579" for 172.16.18.1 at 2012-02-06 04:40:00 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4579"}
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:40:13 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:42:02 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 166ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4571" for 172.16.18.1 at 2012-02-06 04:42:08 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4571"}
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:42:31 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4568" for 172.16.18.1 at 2012-02-06 04:42:58 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4568"}
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4575" for 172.16.18.1 at 2012-02-06 04:47:55 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4575"}
+Completed 200 OK in 617ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:55:56 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 654ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 04:55:56 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2017ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4557" for 172.16.18.1 at 2012-02-06 04:56:20 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4557"}
+Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4557" for 172.16.18.1 at 2012-02-06 04:56:22 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4557"}
+Completed 200 OK in 87ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4557" for 172.16.18.1 at 2012-02-06 04:56:24 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4557"}
+Completed 200 OK in 97ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4577" for 172.16.18.1 at 2012-02-06 04:56:27 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4577"}
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4557" for 172.16.18.1 at 2012-02-06 04:56:33 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4557"}
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 04:57:46 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2122ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 04:57:48 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 116ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4291" for 172.16.18.1 at 2012-02-06 04:57:50 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4291"}
+Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4304" for 172.16.18.1 at 2012-02-06 04:57:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4304"}
+Completed 200 OK in 156ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4565" for 172.16.18.1 at 2012-02-06 05:00:28 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4565"}
+Completed 200 OK in 105ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4512" for 172.16.18.1 at 2012-02-06 05:00:47 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4512"}
+Completed 200 OK in 101ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4450" for 172.16.18.1 at 2012-02-06 05:00:51 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4450"}
+Completed 200 OK in 279ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4512" for 172.16.18.1 at 2012-02-06 05:00:54 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4512"}
+Completed 200 OK in 145ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4529" for 172.16.18.1 at 2012-02-06 05:00:59 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4529"}
+Completed 200 OK in 81ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4556" for 172.16.18.1 at 2012-02-06 05:01:07 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4556"}
+Completed 200 OK in 144ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4486" for 172.16.18.1 at 2012-02-06 05:01:14 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4486"}
+Completed 200 OK in 86ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4535" for 172.16.18.1 at 2012-02-06 05:01:25 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4535"}
+Completed 200 OK in 1762ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4562" for 172.16.18.1 at 2012-02-06 05:01:36 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4562"}
+Completed 200 OK in 96ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4578" for 172.16.18.1 at 2012-02-06 05:02:18 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4578"}
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:15:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 130ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:15:38 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2266ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:15:40 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 181ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:17:52 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 180ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:17:52 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2032ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:17:54 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 119ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:19:48 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 192ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:19:48 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1618ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:19:50 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 87ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:21:26 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 137ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:21:26 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 124ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:21:26 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2385ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:24:25 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1833ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:24:26 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 176ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:24:27 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 120ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:25:38 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1511ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:25:40 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 324ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:25:40 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 126ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:26:14 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 155ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:26:15 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 113ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:26:15 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1556ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:26:49 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 104ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:26:49 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2782ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:26:52 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 154ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:27:24 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 104ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:27:24 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1281ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:27:26 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 102ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:27:52 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 151ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:27:52 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1401ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:27:53 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 141ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/0" for 172.16.18.1 at 2012-02-06 05:28:26 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"0"}
+Completed 200 OK in 84ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:28:45 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1567ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:28:47 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 141ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:28:47 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 105ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:28:54 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1621ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:28:56 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 125ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:28:56 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 246ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:30:08 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 99ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:30:08 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 104ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:30:08 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1769ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:32:13 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 82ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:32:13 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 396ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:32:13 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2555ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/492" for 172.16.18.1 at 2012-02-06 05:32:40 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"492"}
+Completed 200 OK in 90ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:44:25 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 192ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:44:25 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 158ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:44:25 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2068ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 05:44:28 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 2564ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:46:45 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 152ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:46:45 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2561ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:46:48 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 125ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:46:51 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 1218ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:47:56 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 437ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:47:57 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 36954ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:48:34 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 646ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:48:34 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1634ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:48:36 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 133ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:48:36 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 280ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:48:41 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 878ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:49:34 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 172ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:49:35 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 119ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:49:35 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 2120ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 05:49:41 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1107ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:51:36 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 129ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:51:36 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1655ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:51:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 116ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:51:41 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 768ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:52:53 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 103ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:52:53 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1942ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:52:55 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 96ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:52:58 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 863ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:53:55 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1237ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:53:56 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 387ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:53:56 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 164ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:53:59 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 1039ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 05:54:43 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 995ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:56:07 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 132ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:56:07 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 142ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:56:07 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1978ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 05:56:10 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 1127ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:58:45 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 101ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:58:45 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 148ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:58:45 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1807ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 05:58:47 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 1261ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 05:59:37 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 118ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 05:59:37 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1358ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 05:59:39 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 135ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 05:59:41 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 1001ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 06:00:33 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1349ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 06:00:34 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 152ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 06:00:35 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 219ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:00:37 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 860ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:00:46 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 766ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 06:01:11 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 141ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 06:01:11 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1761ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 06:01:13 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 179ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:01:14 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 773ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 06:02:42 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 105ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 06:02:42 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 106ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 06:02:43 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1166ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:02:46 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 796ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 06:03:58 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 100ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 06:03:58 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 1968ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 06:04:00 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 106ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:04:02 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 988ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:04:31 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 845ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:04:43 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1040ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:05:13 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 760ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:05:21 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 819ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:05:54 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1557ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:06:38 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1399ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:07:05 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 754ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:07:19 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 773ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:07:23 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 751ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:07:38 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 734ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:07:41 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 783ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:08:02 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 749ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:08:13 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 877ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:08:16 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 752ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:08:31 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 753ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:02 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1738ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:10 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 961ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:17 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 767ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:25 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 781ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:10:32 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 951ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:35 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 765ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:48 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 747ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:10:58 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 770ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:11:04 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 763ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:11:16 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 592ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:11:31 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 949ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:11:47 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1042ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:11:52 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 875ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:12:13 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1483ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:12:28 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 768ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:14:19 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 997ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:14:33 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1102ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:14:58 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 1092ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:15:22 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1038ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:15:54 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 861ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:16:25 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 863ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:16:46 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 1421ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:17:02 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 927ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:17:08 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 749ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:17:21 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 766ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:18:51 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 1051ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:18:57 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 1383ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:19:37 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 825ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:19:57 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 843ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:20:12 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 894ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/471" for 172.16.18.1 at 2012-02-06 06:20:16 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"471"}
+Completed 200 OK in 1039ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/4574" for 172.16.18.1 at 2012-02-06 06:20:21 -0300
+Processing by PeliculasController#get as JS
+  Parameters: {"pelicula_id"=>"4574"}
+Completed 200 OK in 132ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/127" for 172.16.18.1 at 2012-02-06 06:22:49 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"127"}
+Completed 200 OK in 1682ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:23:32 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 875ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:24:12 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 931ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/505" for 172.16.18.1 at 2012-02-06 06:24:25 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"505"}
+Completed 200 OK in 882ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/471" for 172.16.18.1 at 2012-02-06 06:24:34 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"471"}
+Completed 200 OK in 755ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/529" for 172.16.18.1 at 2012-02-06 06:25:02 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"529"}
+Completed 200 OK in 1453ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/529" for 172.16.18.1 at 2012-02-06 06:25:10 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"529"}
+Completed 200 OK in 713ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/529" for 172.16.18.1 at 2012-02-06 06:25:53 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"529"}
+Completed 200 OK in 827ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/estrenos" for 172.16.18.1 at 2012-02-06 06:30:42 -0300
+Processing by PeliculasController#estrenos as JS
+Completed 200 OK in 162ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/peliculas/cartelera" for 172.16.18.1 at 2012-02-06 06:30:42 -0300
+Processing by PeliculasController#cartelera as JS
+Completed 200 OK in 3735ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines" for 172.16.18.1 at 2012-02-06 06:30:46 -0300
+Processing by CinesController#all as JS
+Completed 200 OK in 174ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/195" for 172.16.18.1 at 2012-02-06 06:31:07 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"195"}
+Completed 200 OK in 921ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/138" for 172.16.18.1 at 2012-02-06 06:31:35 -0300
+Processing by CinesController#get as JS
+  Parameters: {"cine_id"=>"138"}
+Completed 200 OK in 913ms (Views: 0.6ms | ActiveRecord: 0.0ms)

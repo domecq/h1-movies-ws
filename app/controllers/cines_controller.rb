@@ -8,7 +8,7 @@ class CinesController < ApplicationController
     doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
     
     @cines = doc.xpath('//select[@id="cine"]/option').map do |i|
-      {:nombre => i.text, :id => i.xpath('@value').text}      
+      {:nombre => i.text, :cine_id => i.xpath('@value').text}      
     end    
           
     render :json => @cines
