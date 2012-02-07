@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
+require 'geocoder'
 
 class CinesController < ApplicationController
   
@@ -53,5 +54,21 @@ class CinesController < ApplicationController
     render :json => @cine
     
   end
-
+  
+  
+  def getWithGeo
+    
+  end
+  
+  def whereAmI
+    
+    lat = params[:latitud]
+    long = params[:longitud]
+    
+    @donde = Geocoder.search(lat + "," + long)
+    
+    render :json => @donde
+    
+  end
+  
 end
