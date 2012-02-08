@@ -28,7 +28,7 @@ class CinesController < ApplicationController
 
       # tengo romper la abstraccion porque quiero que empiece el id siempre desde 1
       # si no bastaría con hacer Cine.delete_all
-      #ActiveRecord::Base.connection.execute("truncate table #{'cines'}")
+      #ActiveRecord::Base.connection.execute("truncate table #{'cines'}") # no funciono en postgres
       Cine.delete_all
     
       doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
@@ -38,7 +38,8 @@ class CinesController < ApplicationController
       end    
       
       # borro el primer registro porque dice simplemente "+ Cines"
-      Cine.destroy(1)
+      Cine.find(:first).destroy
+
       
       @mensaje = "Los cines fueron creados con &eacute;xito!"
 
