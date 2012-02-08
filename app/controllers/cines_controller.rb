@@ -65,9 +65,9 @@ class CinesController < ApplicationController
     lat = params[:latitud]
     long = params[:longitud]
     
-    @donde = Geocoder.search(lat + "," + long)
+    @donde = Geocoder.search(lat + "," + long)[0]
     
-    render :json => @donde
+    render :json => {:direccion => @donde.address }
     
   end
   

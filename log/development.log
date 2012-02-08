@@ -12274,3 +12274,596 @@ Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.
 Processing by CinesController#whereAmI as HTML
   Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
 Completed 200 OK in 445ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:10:03 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 873ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:13:41 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 496ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x0000010540a2f8>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:13:56 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 368ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x00000103a17378>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (50.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (72.5ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:14:39 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 350ms
+
+NoMethodError (undefined method `address_components' for #<Hash:0x00000105360938>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:14:55 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 477ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x00000102b47988>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.8ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:15:09 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 701ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x00000105369448>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:15:26 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 373ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:15:37 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 715ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x0000010561e4b8>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:15:49 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 380ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:16:13 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:70: syntax error, unexpected tLBRACE_ARG, expecting keyword_end
+    render :json => @donde[0]{:data}{:address_components}
+                                     ^):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__792662053557418352__call__770156005919939454__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:16:24 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:70: syntax error, unexpected '[', expecting keyword_end
+    render :json => @donde[0]{:data}[:address_components]
+                                     ^):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__792662053557418352__call__770156005919939454__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:16:26 -0300
+
+SyntaxError (/Users/domecq/Sites/h1movies/app/controllers/cines_controller.rb:70: syntax error, unexpected '[', expecting keyword_end
+    render :json => @donde[0]{:data}[:address_components]
+                                     ^):
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  activesupport (3.2.0) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.0) lib/journey/router.rb:60:in `block in call'
+  journey (1.0.0) lib/journey/router.rb:48:in `each'
+  journey (1.0.0) lib/journey/router.rb:48:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  sass (3.1.12) lib/sass/plugin/rack.rb:54:in `call'
+  warden (1.1.0) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.0) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.0) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__792662053557418352__call__770156005919939454__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/domecq/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:16:53 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 405ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:17:32 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 355ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x00000102ca4c18>):
+  app/controllers/cines_controller.rb:70:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:17:54 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 384ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:18:07 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 393ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x00000105092bc0>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:23:06 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 380ms
+
+NoMethodError (undefined method `[]' for #<Geocoder::Result::Google:0x000001056e6800>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:23:31 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 407ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:24:39 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 889ms
+
+NoMethodError (undefined method `adress' for #<Geocoder::Result::Google:0x00000105283ba0>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:24:44 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 363ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:25:25 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 396ms
+
+NoMethodError (undefined method `short_address' for #<Geocoder::Result::Google:0x00000102df6670>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:30:40 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 387ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:30:41 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 546ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:30:48 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 371ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:31:11 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 483ms
+
+NoMethodError (undefined method `short_name' for #<Array:0x000001053078d8>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:32:33 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 813ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56871522452299/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:32:58 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56871522452299", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 357ms
+
+NoMethodError (undefined method `street_number' for #<Array:0x00000105544920>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:33:06 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 499ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:36:32 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 500 Internal Server Error in 445ms
+
+NoMethodError (undefined method `address' for #<Array:0x000001056ffa58>):
+  app/controllers/cines_controller.rb:71:in `whereAmI'
+
+
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/domecq/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:38:23 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 736ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:38:32 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 424ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:39:05 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 561ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:39:13 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 353ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:44:46 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 729ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:46:39 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 730ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:48:09 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 704ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:48:58 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 350ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:54:12 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 439ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:54:26 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 397ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:54:27 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 363ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:54:35 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 376ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:55:26 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 437ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 20:55:41 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 731ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cines/whereami/-34.56894404465918/-58.46915215188058" for 127.0.0.1 at 2012-02-07 21:12:18 -0300
+Processing by CinesController#whereAmI as HTML
+  Parameters: {"latitud"=>"-34.56894404465918", "longitud"=>"-58.46915215188058"}
+Completed 200 OK in 387ms (Views: 0.8ms | ActiveRecord: 0.0ms)
