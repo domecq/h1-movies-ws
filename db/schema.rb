@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120208225033) do
+ActiveRecord::Schema.define(:version => 20120208232608) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -59,6 +59,11 @@ ActiveRecord::Schema.define(:version => 20120208225033) do
     t.datetime "updated_at",                                 :null => false
     t.integer  "external_id"
     t.string   "localidad"
+  end
+
+  create_table "cines_peliculas", :id => false, :force => true do |t|
+    t.integer "cine_id"
+    t.integer "pelicula_id"
   end
 
   create_table "generos", :force => true do |t|
