@@ -4,6 +4,9 @@ require 'geocoder'
 
 class CinesController < ApplicationController
   
+  ##
+  # devuelve todos los cines
+  #
   def all    
     
     doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
@@ -16,6 +19,40 @@ class CinesController < ApplicationController
     
   end  
   
+  ##
+  # Inserta todos los cines y actualiza (from scratch)
+  #  
+  def insertAll    
+    
+  #  begin
+
+      # tengo romper la abstraccion porque quiero que empiece el id siempre desde 1
+      # si no bastaría con hacer Cine.delete_all
+      ActiveRecord::Base.connection.execute("truncate table #{'cines'}")
+    
+      doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
+    
+      doc.xpath('//select[@id="cine"]/option').map do |info|
+        Cine.create(:nombre => info.text, :external_id => info.xpath('@value').text)
+      end    
+      
+      # borro el primer registro porque dice simplemente "+ Cines"
+      Cine.destroy(1)
+      
+      @mensaje = "Los cines fueron creados con &eacute;xito!"
+
+#    rescue Exception => exc
+       #logger.error("Message for the log file #{exc.message}")
+#       @mensaje = "Algo malo pas&oacute; :("
+ #   end          
+        
+    render :text => @mensaje
+    
+  end  
+  
+  ##
+  # Devuelve los datos de un cine
+  #
   def get
     
     # obtengo los datos del cine
@@ -54,12 +91,12 @@ class CinesController < ApplicationController
     render :json => @cine
     
   end
+
   
   
-  def getWithGeo
-    
-  end
-  
+  ##
+  # Dada una coordenada devuelve donde estoy
+  #  
   def whereAmI
     
     lat = params[:latitud]
@@ -70,5 +107,5 @@ class CinesController < ApplicationController
     render :json => {:direccion => @donde.address }
     
   end
-  
+    
 end
