@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120125162218) do
+ActiveRecord::Schema.define(:version => 20120208225033) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -58,12 +58,34 @@ ActiveRecord::Schema.define(:version => 20120125162218) do
     t.datetime "created_at",                                 :null => false
     t.datetime "updated_at",                                 :null => false
     t.integer  "external_id"
+    t.string   "localidad"
   end
 
   create_table "generos", :force => true do |t|
     t.string   "nombre"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "peliculas", :force => true do |t|
+    t.string   "titulo"
+    t.string   "imagen"
+    t.text     "descripcion"
+    t.string   "titulo_original"
+    t.string   "pais"
+    t.integer  "anio"
+    t.string   "duracion"
+    t.string   "calificacion"
+    t.date     "estreno"
+    t.string   "web"
+    t.string   "genero"
+    t.string   "interpretes"
+    t.string   "director"
+    t.string   "guionista"
+    t.string   "fotografia"
+    t.string   "musica"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "requests", :force => true do |t|

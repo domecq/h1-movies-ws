@@ -9,12 +9,7 @@ class CinesController < ApplicationController
   #
   def all    
     
-    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
-    
-    @cines = doc.xpath('//select[@id="cine"]/option').map do |i|
-      {:nombre => i.text, :cine_id => i.xpath('@value').text}      
-    end    
-          
+    @cines = Cine.find(:all, :select => ["nombre","id"])    
     render :json => @cines
     
   end  
@@ -40,13 +35,32 @@ class CinesController < ApplicationController
       # borro el primer registro porque dice simplemente "+ Cines"
       Cine.find(:first).destroy
 
+      # Para cada cine que cree actualizo su información
+      @cines = Cine.all      
+      @cines.each do |cine|
+
+        # obtengo los datos del cine
+        doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/cine.php?id=" + cine.external_id.to_s))
+
+        doc.xpath('/html/body/div/p[1]').map do |info|
+            data_cine = info.text.lines
+            c = Cine.find(cine.id)
+            c.attributes = 
+            {
+              :direccion => data_cine.to_a[2].gsub(/\n/,''), 
+              :localidad => data_cine.to_a[3].gsub(/\n/,'')
+            }
+            c.save
+        end
+        
+      end      
       
-      @mensaje = "Los cines fueron creados con &eacute;xito!"
+      @mensaje = "Los cines fueron creados y actualizados con &eacute;xito!"
 
 #    rescue Exception => exc
-       #logger.error("Message for the log file #{exc.message}")
+#       logger.error("Message for the log file #{exc.message}")
 #       @mensaje = "Algo malo pas&oacute; :("
- #   end          
+#    end          
         
     render :text => @mensaje
     
