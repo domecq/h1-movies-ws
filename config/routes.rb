@@ -12,7 +12,7 @@ H1movies::Application.routes.draw do
   match 'peliculas/:pelicula_id' => 'peliculas#get' 
 
   match 'cines' => 'cines#all'
-  match 'cines/insertall' => 'cines#insertAll'  
+  match 'cines/insertall/' => 'cines#insertAll'  
   match 'cines/:cine_id' => 'cines#get'  
   match 'cines/:cine_id/:movie_id' => 'cines#get'  
   match 'cines/whereami/:latitud/:longitud' => 'cines#whereAmI', :constraints => { :latitud => /[\-0-9\.]+/, :longitud => /[\-0-9\.]+/ }    
