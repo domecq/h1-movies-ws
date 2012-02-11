@@ -119,7 +119,7 @@ class CinesController < ApplicationController
   #    
   def findNear
     
-    @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 2, :order => "distance")    
+    @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 5, :order => "distance")    
     render :json => @cines    
     
   end
