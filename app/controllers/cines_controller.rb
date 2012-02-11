@@ -95,7 +95,7 @@ class CinesController < ApplicationController
   ##
   # Devuelve los datos de un cine
   def get
-    @cine = Cine.find(params[:cine_id], :select => ["nombre","id","direccion"])
+    @cine = Cine.find(params[:cine_id], :select => ["nombre","id","direccion","localidad"])
     render :json => [ @cine, :peliculas =>  @cine.peliculas.select('titulo,horas,pelicula_id')  ]
   end
   
