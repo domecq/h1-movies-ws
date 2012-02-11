@@ -21,7 +21,7 @@ class PeliculasController < ApplicationController
   def cartelera
         
     #@peliculas = Pelicula.find(:all,:select => ['id','titulo','descripcion','interpretes','imagen'])
-    @peliculas = Pelicula.where("descripcion is not NULL").select("id,titulo,descripcion,interpretes,imagen")
+    @peliculas = Pelicula.where(:es_estreno => false).select("id,titulo,descripcion,interpretes,imagen")
     render :json => @peliculas
     
   end
@@ -106,6 +106,39 @@ class PeliculasController < ApplicationController
         :imagen => i.xpath('td/img/@src').text,
         :es_estreno => true
         )
+    end    
+    
+    # Argrego el detalle de cada pelicula
+    peliculas = Pelicula.where(:es_estreno => true)  
+    peliculas.each do |pelicula|
+      
+      doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/pelicula.php?id=" + pelicula.external_id.to_s))
+      
+      doc.xpath('/html/body/div/table').map do |info|
+        
+        p = Pelicula.find(pelicula.id)
+        
+        p.attributes = { 
+          :imagen => info.xpath('tr[1]/td[1]/img/@src').text,
+          :descripcion => info.xpath('tr[1]/td[2]/p').text.gsub(/\[ Donde verla \]/,''),
+          :titulo_original => info.xpath('tr[2]/td/ul/li[1]/span').text,
+          :pais => info.xpath('tr[2]/td/ul/li[2]/span').text,        
+          :anio => info.xpath('tr[2]/td/ul/li[3]/span').text,        
+          :duracion => info.xpath('tr[2]/td/ul/li[4]/span').text,
+          :calificacion => info.xpath('tr[2]/td/ul/li[5]/span').text,        
+          :estreno => info.xpath('tr[2]/td/ul/li[6]/span').text,                
+          :web => info.xpath('tr[2]/td/ul/li[7]/span').text,                        
+          :genero => info.xpath('tr[2]/td/ul/li[8]/span').text,
+          :interpretes => info.xpath('tr[2]/td/ul/li[9]/span').text,          
+          :director => info.xpath('tr[2]/td/ul/li[10]/span').text,
+          :guionista => info.xpath('tr[2]/td/ul/li[11]/span').text,
+          :fotografia => info.xpath('tr[2]/td/ul/li[12]/span').text,        
+          :musica => info.xpath('tr[2]/td/ul/li[13]/span').text,        
+          }    
+          p.save  
+      end    
+      
+      
     end    
     @mensaje = 'Los estrenos fueron creados con &eacute;xito!'
     render :text => @mensaje
