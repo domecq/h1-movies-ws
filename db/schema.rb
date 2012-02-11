@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120211041409) do
+ActiveRecord::Schema.define(:version => 20120211060055) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -70,7 +70,7 @@ ActiveRecord::Schema.define(:version => 20120211041409) do
   create_table "horarios", :force => true do |t|
     t.integer "cine_id"
     t.integer "pelicula_id"
-    t.string  "horarios"
+    t.string  "horas"
   end
 
   create_table "peliculas", :force => true do |t|
