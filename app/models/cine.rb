@@ -1,4 +1,4 @@
 class Cine < ActiveRecord::Base
   belongs_to :zona
-  has_and_belongs_to_many :peliculas  
+  has_many :peliculas, :through => :horarios
 end

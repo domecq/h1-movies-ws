@@ -1,3 +1,3 @@
 class Pelicula < ActiveRecord::Base
-  has_and_belongs_to_many :cines
+  has_many :cines, :through => :horarios
 end

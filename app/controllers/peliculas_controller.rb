@@ -6,20 +6,7 @@ class PeliculasController < ApplicationController
   # Los estrenos de la semana  
   def estrenos
 
-    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
-    
-    @movies = doc.xpath('/html/body/div/table/tr').map do |i|
-      titulo = i.xpath('td/strong/a').text
-      brief = i.xpath('td[@class="texto"]').text.gsub(/\[ver m\u00e1s\]|\n/,'').strip.sub(titulo,'')
-      link = i.xpath('td/a/@href').text.split('=').to_a
-      pelicula_id = link[1]
-      
-      { :pelicula_id => pelicula_id,
-        :titulo => titulo, 
-        :brief => brief,
-        :imagen => i.xpath('td/img/@src').text,
-        }
-    end    
+    @movies = Pelicula.where(:es_estreno => true).select('id, titulo, brief, imagen')
     render :json => @movies
     
   end    
@@ -33,29 +20,101 @@ class PeliculasController < ApplicationController
   #  Peliculas en cartelera    
   def cartelera
         
+    @peliculas = Pelicula.find(:all, :select => ['id','titulo','descripcion','interpretes','imagen'])
+    render :json => @peliculas
+    
+  end
+  
+  def get
+  end
+  
+  ##
+  # Inserto todas las peliculas
+  def insertAll
+    
+    Pelicula.delete_all
+        
     doc = Nokogiri::HTML(open("http://cartelera.terra.com.ar/carteleracine/"))
     #//*[@id="tabla_en_cartelera"]
-    @peliculas = doc.xpath('//div[@id="encartel"]/table/tbody/tr').map do |info|
+    doc.xpath('//div[@id="encartel"]/table/tbody/tr').map do |info|
       
       pelicula_link = info.xpath("td[@class='pelicula']/a/@href").text.split('/').to_a
       # saco el 1 misterioso, para que el id vuelva a la normalidad
       pelicula_id = pelicula_link[pelicula_link.count - 1].chop        
             
-      { :titulo => info.xpath('td[@class="pelicula"]/a').text,
-        :actores => info.xpath('td[@class="actores"]/a').text, 
-        :pelicula_id => pelicula_id,
-        :imagen => 'http://www.123info.com.ar/fotos/' + pelicula_id + 'ch.jpg'
-        }      
+      Pelicula.create(:titulo => info.xpath('td[@class="pelicula"]/a').text,
+        :external_id => pelicula_id,
+        :imagen => 'http://www.123info.com.ar/fotos/' + pelicula_id + 'ch.jpg')  
+        
     end    
-          
-    render :json => @peliculas
+    
+    # Argrego el detalle de cada pelicula
+    peliculas = Pelicula.all  
+    peliculas.each do |pelicula|
+      
+      doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/pelicula.php?id=" + pelicula.external_id.to_s))
+      
+      doc.xpath('/html/body/div/table').map do |info|
+        
+        p = Pelicula.find(pelicula.id)
+        
+        p.attributes = { 
+          :imagen => info.xpath('tr[1]/td[1]/img/@src').text,
+          :descripcion => info.xpath('tr[1]/td[2]/p').text.gsub(/\[ Donde verla \]/,''),
+          :titulo_original => info.xpath('tr[2]/td/ul/li[1]/span').text,
+          :pais => info.xpath('tr[2]/td/ul/li[2]/span').text,        
+          :anio => info.xpath('tr[2]/td/ul/li[3]/span').text,        
+          :duracion => info.xpath('tr[2]/td/ul/li[4]/span').text,
+          :calificacion => info.xpath('tr[2]/td/ul/li[5]/span').text,        
+          :estreno => info.xpath('tr[2]/td/ul/li[6]/span').text,                
+          :web => info.xpath('tr[2]/td/ul/li[7]/span').text,                        
+          :genero => info.xpath('tr[2]/td/ul/li[8]/span').text,
+          :interpretes => info.xpath('tr[2]/td/ul/li[9]/span').text,          
+          :director => info.xpath('tr[2]/td/ul/li[10]/span').text,
+          :guionista => info.xpath('tr[2]/td/ul/li[11]/span').text,
+          :fotografia => info.xpath('tr[2]/td/ul/li[12]/span').text,        
+          :musica => info.xpath('tr[2]/td/ul/li[13]/span').text,        
+          }    
+          p.save  
+      end    
+      
+      
+    end
+    
+    @mensaje = 'Las pel&iacute;culas fueron creadas con &eacute;xito!'
+    render :text => @mensaje
     
   end
+  ##
+  # Inserto los estrenos
+  def insertEstrenos
+
+    doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/index.php"))
+    
+    doc.xpath('/html/body/div/table/tr').map do |i|
+      titulo = i.xpath('td/strong/a').text
+      brief = i.xpath('td[@class="texto"]').text.gsub(/\[ver m\u00e1s\]|\n/,'').strip.sub(titulo,'')
+      link = i.xpath('td/a/@href').text.split('=').to_a
+      pelicula_id = link[1]
+      
+      Pelicula.create(:external_id => pelicula_id,
+        :titulo => titulo, 
+        :brief => brief,
+        :imagen => i.xpath('td/img/@src').text,
+        :es_estreno => true
+        )
+    end    
+    @mensaje = 'Los estrenos fueron creados con &eacute;xito!'
+    render :text => @mensaje
+    
+  end    
   
-  # Obtengo el detalle de una pelicula
-  def get
+  
+  # Obtengo el detalle de una pelicula (remotamente)
+  def getFromAway
     
     doc = Nokogiri::HTML(open("http://www.bases123.com.ar/eldia/cines/pelicula.php?id=" + params[:pelicula_id]))
+    
     
     @pelicula = doc.xpath('/html/body/div/table').map do |info|
       { :titulo => info.xpath('tr[1]/td[2]/strong').text, 

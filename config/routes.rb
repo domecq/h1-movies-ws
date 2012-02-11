@@ -9,7 +9,10 @@ H1movies::Application.routes.draw do
   # Sample of regular route:
   match 'peliculas/estrenos' => 'peliculas#estrenos'
   match 'peliculas/cartelera' => 'peliculas#cartelera'
+  match 'peliculas/insertall' => 'peliculas#insertAll'  
+  match 'peliculas/insertestrenos' => 'peliculas#insertEstrenos'    
   match 'peliculas/:pelicula_id' => 'peliculas#get' 
+
 
   match 'cines' => 'cines#all'
   match 'cines/insertall' => 'cines#insertAll'  
