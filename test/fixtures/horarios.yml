@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cine_id: 1
+  pelicula_id: 1
+  horarios: MyString
+
+two:
+  cine_id: 1
+  pelicula_id: 1
+  horarios: MyString
