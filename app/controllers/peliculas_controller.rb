@@ -20,7 +20,8 @@ class PeliculasController < ApplicationController
   #  Peliculas en cartelera    
   def cartelera
         
-    @peliculas = Pelicula.find(:all, :select => ['id','titulo','descripcion','interpretes','imagen'])
+    #@peliculas = Pelicula.find(:all,:select => ['id','titulo','descripcion','interpretes','imagen'])
+    @peliculas = Pelicula.where("descripcion is not NULL").select("id,titulo,descripcion,interpretes,imagen")
     render :json => @peliculas
     
   end
