@@ -45,11 +45,14 @@ class CinesController < ApplicationController
 
         doc.xpath('/html/body/div/p[1]').map do |info|
             data_cine = info.text.lines
+            dir = data_cine.to_a[2].gsub(/\n/,'')
+            loc = data_cine.to_a[3].gsub(/\n/,'')
             c = Cine.find(cine.id)
             c.attributes = 
             {
-              :direccion => data_cine.to_a[2].gsub(/\n/,''), 
-              :localidad => data_cine.to_a[3].gsub(/\n/,'')
+              :direccion => dir, 
+              :localidad => loc,
+              :address => dir + ', ' + loc.gsub(/\|/,', '), 
             }
             c.save
         end
@@ -68,7 +71,7 @@ class CinesController < ApplicationController
             pelicula_id = pelicula_link[pelicula_link.count - 1].chop    
             @p = Pelicula.where(:external_id => pelicula_id).first
             logger.debug "Peli: " + @p.class.to_s
-            Horario.create(:cine_id => cine.id, :pelicula_id => @p.id, :horarios => horarios )
+            Horario.create(:cine_id => cine.id, :pelicula_id => @p.id, :horas => horarios )
 
             
         end        
@@ -110,5 +113,11 @@ class CinesController < ApplicationController
     render :json => {:direccion => @donde.address }
     
   end
+  
+  def findNear
+    @cines = Cine.near("-34.569281,-58.468939", 2, :order => "distance")
+    render :json => @cines    
+  end
+  
     
 end
