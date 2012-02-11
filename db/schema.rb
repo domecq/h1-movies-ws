@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120211060055) do
+ActiveRecord::Schema.define(:version => 20120211063824) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -52,13 +52,14 @@ ActiveRecord::Schema.define(:version => 20120211060055) do
     t.string   "query"
     t.string   "country"
     t.string   "tel"
-    t.decimal  "lat",         :precision => 10, :scale => 0
-    t.decimal  "long",        :precision => 10, :scale => 0
     t.integer  "zona_id"
-    t.datetime "created_at",                                 :null => false
-    t.datetime "updated_at",                                 :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.integer  "external_id"
     t.string   "localidad"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.string   "address"
   end
 
   create_table "generos", :force => true do |t|
