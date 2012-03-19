@@ -157,6 +157,8 @@ class CinesController < ApplicationController
       @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 10, :order => "distance")    
     else
       @cines = Cine.all
+    end
+    
     render :json => @cines    
     
   end
