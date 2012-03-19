@@ -90,7 +90,42 @@ class CinesController < ApplicationController
 #    end          
     render :text => @mensaje
     
-  end  
+  end
+  
+  def updateShowtimes  
+
+    # Para cada cine que cree actualizo su información
+    Horario.delete_all
+    @cines = Cine.all      
+    @cines.each do |cine|
+      
+      # obtengo las peliculas que se proyectan en el cine y sus horario
+      # nota: el 1 misterioso que se agrega es porque los ids del sitio terra son los mismos que infojet pero con la diferencia 
+      # que llevan conctenado un 1 al final
+      doc = Nokogiri::HTML(open("http://cartelera.terra.com.ar/carteleracine/sala/" + cine.external_id.to_s + "1") )
+
+      #@horarios = doc.xpath("//a[starts-with(@href,'pelicula.php')]/@href").map do |info|
+      doc.xpath("//div[@id='filmyhorarios']/ul/li").map do |info|
+        
+          horarios = info.xpath("div[@class='horario fleft']").text.gsub(/\t|\n/, '')
+          pelicula_link = info.xpath("div[@class='film fleft']/h3/a/@href").text.split('/').to_a
+          # saco el 1 misterioso, para que el id vuelva a la normalidad
+          pelicula_id = pelicula_link[pelicula_link.count - 1].chop    
+          @p = Pelicula.where(:external_id => pelicula_id).first
+          logger.debug "Peli: " + @p.class.to_s
+          Horario.create(:cine_id => cine.id, :pelicula_id => @p.id, :horas => horarios )
+
+          
+      end        
+      
+    end      
+
+    
+    @mensaje = "Los cines fueron actualizados con &eacute;xito!"
+    
+    render :text => @mensaje
+  end
+  
   
   ##
   # Devuelve los datos de un cine
