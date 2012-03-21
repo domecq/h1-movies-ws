@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/alexreisner/geocoder.git
+  revision: 1b6583048ada5a508e0f0d6b1e7685aa43a91596
+  specs:
+    geocoder (1.1.1)
+
+GIT
   remote: git://github.com/gregbell/active_admin.git
   revision: b5b97e1f296d0af95cf44fbb976c9a85f9303b25
   specs:
@@ -68,7 +74,6 @@ GEM
     fastercsv (1.5.4)
     formtastic (2.0.2)
       rails (~> 3.0)
-    geocoder (1.1.0)
     has_scope (0.5.1)
     hike (1.2.1)
     i18n (0.6.0)
@@ -160,7 +165,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   coffee-rails (~> 3.2.1)
-  geocoder
+  geocoder!
   jquery-rails
   meta_search (>= 1.1.0.pre)
   mysql2
