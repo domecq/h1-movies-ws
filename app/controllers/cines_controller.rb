@@ -71,7 +71,9 @@ class CinesController < ApplicationController
             pelicula_id = pelicula_link[pelicula_link.count - 1].chop    
             @p = Pelicula.where(:external_id => pelicula_id).first
             logger.debug "Peli: " + @p.class.to_s
-            Horario.create(:cine_id => cine.id, :pelicula_id => @p.id, :horas => horarios )
+            if (@p != nil)
+              Horario.create(:cine_id => cine.id, :pelicula_id => @p.id, :horas => horarios )
+            end
 
             
         end        
