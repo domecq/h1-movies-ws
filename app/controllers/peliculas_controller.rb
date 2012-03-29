@@ -46,8 +46,8 @@ class PeliculasController < ApplicationController
             
       Pelicula.create(:titulo => info.xpath('td[@class="pelicula"]/a').text,
         :external_id => pelicula_id,
-        :imagen => 'http://www.123info.com.ar/fotos/' + pelicula_id + 'ch.jpg')  
-        
+        :imagen => 'http://www.bases123.com.ar/fotos/cine/' + pelicula_id.to_s + 'gr.jpg',
+        :imagen_chica => 'http://www.bases123.com.ar/fotos/cine/' + pelicula_id.to_s + 'ch.jpg')        
     end    
     
     # Argrego el detalle de cada pelicula
@@ -61,7 +61,6 @@ class PeliculasController < ApplicationController
         p = Pelicula.find(pelicula.id)
         
         p.attributes = { 
-          :imagen => info.xpath('tr[1]/td[1]/img/@src').text,
           :descripcion => info.xpath('tr[1]/td[2]/p').text.gsub(/\[ Donde verla \]/,''),
           :titulo_original => info.xpath('tr[2]/td/ul/li[1]/span').text,
           :pais => info.xpath('tr[2]/td/ul/li[2]/span').text,        
@@ -102,7 +101,8 @@ class PeliculasController < ApplicationController
       Pelicula.create(:external_id => pelicula_id,
         :titulo => titulo, 
         :brief => brief,
-        :imagen => i.xpath('td/img/@src').text,
+        :imagen => 'http://www.bases123.com.ar/fotos/cine/' + pelicula_id.to_s + 'gr.jpg',
+        :imagen_chica => 'http://www.bases123.com.ar/fotos/cine/' + pelicula_id.to_s + 'ch.jpg',        
         :es_estreno => true
         )
     end    
