@@ -1,0 +1,40 @@
+<h1>Películas</h1>
+<h2>Estrenos de la semana</h1>
+<table>
+	<tr>
+		<th></th>		
+		<th>T&iacute;tulo</th>
+		<th>Descripci&oacute;on</th>
+		<th></th>
+	</tr>
+
+	<% @movies.each do |movie| %>
+	<tr>
+		<td><img src="<%= movie.imagen_chica %>"/></td>
+		<td><%= movie.titulo %></td>
+		<td><%= movie.brief %></td>
+		<td><%= link_to 'Show', @movie %></td>
+	</tr>
+	<% end %>
+
+</table>
+
+<h2>Cartelera</h1>
+
+<table>
+	<tr>
+		<th></th>		
+		<th>T&iacute;tulo</th>
+		<th>Descripci&oacute;on</th>
+	</tr>
+
+	<% @cartelera.each do |movie| %>
+	<tr>
+		<td><img src="<%= movie.imagen_chica %>"/></td>
+		<td><%= movie.titulo %></td>
+		<td><%= movie.descripcion %></td>	
+		<td><%= link_to 'Show', peliculas_path %></td>
+	</tr>
+	<% end %>
+
+</table>
