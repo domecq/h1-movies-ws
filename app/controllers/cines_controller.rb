@@ -156,8 +156,22 @@ class CinesController < ApplicationController
   # Dada una coordenada me devuelve los cines cercanos
   #    
   def findNear
-    if params[:latitud].to_s != "" && params[:longitud].to_s != ""
-      @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 10, :order => "distance")    
+    if !params[:latitud].nil? && !params[:longitud].nil?      
+      if (!params[:movie_id].nil?)
+        @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 10, :order => :distance).includes(:horarios)
+        @horarios = Array.new
+        @cines.each  do |c| 
+            c.horarios.each do |h|
+              if (h.pelicula_id.to_i == params[:movie_id].to_i)
+                #@horarios.push([:cine => c, :horarios => h.horas])
+                @horarios.push(c)
+              end
+            end
+        end
+        @cines = @horarios
+      else
+        @cines = Cine.near(params[:latitud].to_s  + "," + params[:longitud].to_s, 10, :order => "distance")              
+      end      
     else
       @cines = Cine.all
     end

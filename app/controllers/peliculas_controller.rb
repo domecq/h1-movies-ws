@@ -2,6 +2,11 @@ require 'open-uri'
 require 'nokogiri'
 
 class PeliculasController < ApplicationController
+
+  def index
+    @movies = Pelicula.where(:es_estreno => true).select('id, titulo, brief, imagen_chica')
+    @cartelera = Pelicula.where("es_estreno IS NULL OR es_estreno IS false").select("id,titulo,descripcion,interpretes,imagen_chica")
+  end
   
   # Los estrenos de la semana  
   def estrenos

@@ -7,6 +7,8 @@ H1movies::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
+  #resources :peliculas
+  match 'peliculas' => 'peliculas#index'
   match 'peliculas/estrenos' => 'peliculas#estrenos'
   match 'peliculas/cartelera' => 'peliculas#cartelera'
   match 'peliculas/insertall' => 'peliculas#insertAll'  
@@ -22,6 +24,7 @@ H1movies::Application.routes.draw do
   match 'cines/:cine_id/:movie_id' => 'cines#get'  
   match 'cines/whereami/:latitud/:longitud' => 'cines#whereAmI', :constraints => { :latitud => /[\-0-9\.]+/, :longitud => /[\-0-9\.]+/ }    
   match 'cines/findnear/:latitud/:longitud' => 'cines#findNear', :constraints => { :latitud => /[\-0-9\.]+/, :longitud => /[\-0-9\.]+/ }      
+  match 'cines/findwhere/:latitud/:longitud/:movie_id' => 'cines#findNear', :constraints => { :latitud => /[\-0-9\.]+/, :longitud => /[\-0-9\.]+/ }        
 
   
   # Keep in mind you can assign values other than :controller and :action
