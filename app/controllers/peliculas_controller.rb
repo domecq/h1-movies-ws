@@ -25,7 +25,11 @@ class PeliculasController < ApplicationController
   #  Peliculas en cartelera    
   def cartelera
         
-    @peliculas = Pelicula.where("es_estreno IS NULL OR es_estreno IS false").select("id,titulo,descripcion,interpretes,imagen")
+    if params[:limit].nil?
+      @peliculas = Pelicula.where("es_estreno IS NULL OR es_estreno IS false").select("id,titulo,descripcion,interpretes,imagen")
+    else
+      @peliculas = Pelicula.where("es_estreno IS NULL OR es_estreno IS false").select("id,titulo,descripcion,interpretes,imagen").limit(params[:limit]).offset(Integer(params[:offset]))
+    end
     render :json => @peliculas
     
   end

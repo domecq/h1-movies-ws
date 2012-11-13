@@ -10,6 +10,7 @@ H1movies::Application.routes.draw do
   #resources :peliculas
   match 'peliculas' => 'peliculas#index'
   match 'peliculas/estrenos' => 'peliculas#estrenos'
+  match 'peliculas/cartelera/:limit/:offset' => 'peliculas#cartelera'   
   match 'peliculas/cartelera' => 'peliculas#cartelera'
   match 'peliculas/insertall' => 'peliculas#insertAll'  
   match 'peliculas/insertestrenos' => 'peliculas#insertEstrenos'    
