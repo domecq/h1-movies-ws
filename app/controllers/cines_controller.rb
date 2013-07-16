@@ -152,6 +152,10 @@ class CinesController < ApplicationController
     
   end
   
+  def whereToWatch
+    @cines = Cine.joins(:peliculas).where('peliculas.id = ' + params[:movie_id] )    
+    render :json => @cines 
+  end
   ##
   # Dada una coordenada me devuelve los cines cercanos
   #    
